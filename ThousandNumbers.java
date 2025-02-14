@@ -8,7 +8,7 @@ public class ThousandNumbers {
             line++;
 
             if (line % 10 == 0)    {
-                System.out.println(" ");
+                System.out.println();
             }
 
             count++;
