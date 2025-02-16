@@ -10,6 +10,8 @@ public class PasswordGenerator {
 
         String password = generatePassword(length);
         System.out.println("Your password is " + password);
+
+        scanner.close();
     }
     static String generatePassword(int length)  {
         Random random = new Random();
