@@ -20,7 +20,6 @@ public class PasswordGenerator {
             password.append(digit);
         }
         return password.toString();
-
     }
 }
 
