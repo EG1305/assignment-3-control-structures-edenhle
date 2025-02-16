@@ -24,5 +24,7 @@ public class CoinToss {
         }
         System.out.println("Heads facing up: " + heads);
         System.out.println("Tails facing up: " + tails);
+
+        scanner.close();
     }
 }
