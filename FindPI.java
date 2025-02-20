@@ -11,5 +11,21 @@ public class FindPI {
         long startTime = System.currentTimeMillis();
         double pi = calculatePi(iterations);
         long endTime = System.currentTimeMillis();
+
+        double elapsedTime = (endTime - startTime) / 1000.0;
+
+        System.out.println("PI = " + pi);
+        System.out.println("After " + iterations + " iterations.\nThis operation took " + elapsedTime + " seconds");
+
+        scanner.close();
+    }
+    private static double calculatePi(int iterations)   {
+        double pi = 0;
+        double sign = 1;
+        for (int i = 0; i < iterations; i++) {
+            pi += sign * 4.0 / (2 * i + 1);
+            sign *= -1;
+        }
+        return pi;
     }
 }
