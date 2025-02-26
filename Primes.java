@@ -5,7 +5,7 @@ public class Primes {
         Scanner scanner = new Scanner(System.in);
 
         //user input
-        System.out.println("Enter an number. The System will find all prime numbers smaller than this number.");
+        System.out.println("Enter a number. The System will find all prime numbers smaller than this number.");
         int number = scanner.nextInt();
 
         int count = 0;  //counter for amount of prime numbers
