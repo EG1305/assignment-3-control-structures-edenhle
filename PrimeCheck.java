@@ -8,7 +8,7 @@ public class PrimeCheck {
         System.out.println("You can enter 0 anytime to stop the program");
         
         while (true)    {
-            //user input number
+            //user input
             System.out.println("Please enter a number");
             int number = scanner.nextInt();
 
