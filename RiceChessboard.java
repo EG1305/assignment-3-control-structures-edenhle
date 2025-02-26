@@ -2,7 +2,7 @@ import java.math.BigInteger;
 
 public class RiceChessboard {
     public static void main(String[] args) {
-        int squares = 64;
+        int squares = 64; //amount of squares on chessboard
         BigInteger totalRice = BigInteger.ZERO;
         BigInteger lastSquare = BigInteger.ONE;
 
