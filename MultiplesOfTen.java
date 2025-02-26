@@ -3,7 +3,7 @@ public class MultiplesOfTen {
         int count = 0;
 
          for (int number = 10; number <= 1000; number += 10) {
-            System.out.println(+ number);
+            System.out.print(" " + number);
             count++;
 
             if (count % 10 == 0)    {

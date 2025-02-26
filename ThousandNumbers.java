@@ -4,7 +4,7 @@ public class ThousandNumbers {
         int line = 0;
 
         while (count <= 1000)  {
-            System.out.println(+ count);
+            System.out.print(" " + count);
             line++;
 
             if (line % 10 == 0)    {
